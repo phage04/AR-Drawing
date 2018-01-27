@@ -29,9 +29,6 @@
                                     <constraint firstAttribute="height" constant="52" id="t8g-7h-u8R"/>
                                 </constraints>
                                 <state key="normal" title="Draw"/>
-                                <connections>
-                                    <action selector="didPressDrawBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oGg-WS-yTi"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -46,6 +43,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="draw" destination="RLg-Lv-PJh" id="GkX-aT-dop"/>
                         <outlet property="sceneView" destination="sVc-wV-lMw" id="KNv-kn-f7J"/>
                     </connections>
                 </viewController>
